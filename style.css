@@ -7,31 +7,33 @@ body{
 .main-container{
     display: flex;
     justify-content: space-between;
-    height: 100vh;   
+    height: 100vh;       
 }
 
 .leftside{
-    background-color: #eee;    
+    background-color: #eee;		
 }
 
 .rightside{
-    background-color: #eee;
-    align-items: center;
-       
+    background-color: #eee;	
 }
 
- .middle-container{
+.middle-container{
     width: 70%;
+    position: relative;
 }
 
-.plant-container img{
-   width: 29%; 
-} 
+.plant-container {
+    position: relative;
+    height: 13%;
+    left: -10px;  
+ } 
 
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+ .plant{
+    position: relative;
+	max-width: 150%;
+	max-height: 110%;
+	z-index: 2;
 }
 
 h1{
